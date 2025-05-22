@@ -11,10 +11,17 @@ int main()
     cout << "PROGRAM INPUT NAMA\n";
     cout << "=====================================\n";
    
-    string nama[5];
-    for (int i = 0; i<5; i++)
+    int jumlah;
+    cout << "Berapa Banyak Nama Yang Ingin Diinput ?\n";
+    cout << "Banyak Nama = ";
+    cin >> jumlah;
+    cin.ignore();
+    cout << "\n";
+
+    string nama[jumlah];
+    for (int i = 0; i<jumlah; i++)
     {
-        cout << "Masukkan Nama Ke- " << i+1 << ":";
+        cout << "Masukkan Nama Ke- " << i+1 << ": ";
         getline(cin,nama[i]);
     }
 
@@ -24,12 +31,12 @@ int main()
     cout << "=====================================\n";
     cout << "\n";
 
-    for (int i = 0; i<5; i++)
+    for (int i = 0; i<jumlah; i++)
     {
         cout << "Nama Ke- " << i+1 << ": " << nama[i] << "\n";
     }
 
     cout << "\n";
-    
+
     return 0;
 }
