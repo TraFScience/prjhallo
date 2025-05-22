@@ -1,9 +1,11 @@
 #include <iostream>
+#include "signature.h"
 using namespace std;
 
-int main(int argc, char* argv[])
+int main()
 {
-    cout << "TraffScience";
-
+    WM();
+    cout << "TraffScience \n";
+    cout << "Indonesia Hebat";
     return 0;
 }
