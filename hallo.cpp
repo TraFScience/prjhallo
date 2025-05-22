@@ -1,11 +1,15 @@
 #include <iostream>
+#include <string>
 #include "signature.h"
 using namespace std;
 
 int main()
 {
     WM();
-    cout << "TraffScience \n";
-    cout << "Indonesia Hebat";
+    string nama [5];
+    
+    
+    
+    
     return 0;
 }
